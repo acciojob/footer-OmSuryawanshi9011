@@ -25,7 +25,7 @@ footer {
 .link-boxes a {
   color: white;
   text-decoration: none;
-  display: block;  /* makes each link appear on a new line */
+  display: flex;  /* makes each link appear on a new line */
 }
 .bottom-details {
   margin-top: 20px;
