@@ -1,1 +1,38 @@
-/* your code here */
+footer {
+	font-size: 20px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+.media-icons a {
+	
+  color: purple;
+  margin: 0 10px;
+  font-size: 20px;
+  position: right:
+}
+.link-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.link-boxes div {
+  margin: 0 20px;
+}
+
+.link-boxes a {
+  color: white;
+  text-decoration: none;
+  display: block;  /* makes each link appear on a new line */
+}
+.bottom-details {
+  margin-top: 20px;
+  color: #ccc;  /* lighter color for contrast */
+}
+@media (max-width: 600px) {
+  .link-boxes {
+    flex-direction: column;
+  }
+}
