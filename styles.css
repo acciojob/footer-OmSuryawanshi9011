@@ -5,12 +5,14 @@ footer {
   padding: 20px;
   text-align: left;
 }
-.media-icons a {
-	
+.media-icons {
+	display: flex;
+}
+.media-icons a {	
   color: purple;
   margin: 0 10px;
   font-size: 20px;
-  position: right:
+
 }
 .link-boxes {
   display: flex;
